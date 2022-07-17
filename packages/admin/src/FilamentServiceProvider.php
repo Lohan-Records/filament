@@ -49,6 +49,7 @@ class FilamentServiceProvider extends PackageServiceProvider
 
     protected function getCommands(): array
     {
+        info(123);
         $commands = [
             Commands\MakeBelongsToManyCommand::class,
             Commands\MakeHasManyCommand::class,
